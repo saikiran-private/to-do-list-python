@@ -1,5 +1,5 @@
 import pytest
-from app import app, reset_data
+from main import app, reset_data
 
 # This fixture resets the application data before every test
 @pytest.fixture(autouse=True)
